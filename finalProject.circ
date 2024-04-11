@@ -8,11 +8,7 @@
       <a name="appear" val="center"/>
     </tool>
   </lib>
-  <lib desc="#Gates" name="1">
-    <tool name="XOR Gate">
-      <a name="facing" val="west"/>
-    </tool>
-  </lib>
+  <lib desc="#Gates" name="1"/>
   <lib desc="#Plexers" name="2">
     <tool name="Multiplexer">
       <a name="enable" val="false"/>
@@ -131,9 +127,7 @@ end TCL_Generic;
       <a name="labelloc" val="east"/>
     </tool>
     <tool lib="1" name="NOT Gate"/>
-    <tool lib="1" name="AND Gate">
-      <a name="facing" val="west"/>
-    </tool>
+    <tool lib="1" name="AND Gate"/>
     <tool lib="1" name="OR Gate">
       <a name="facing" val="west"/>
     </tool>
@@ -2407,6 +2401,7 @@ end TCL_Generic;
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
+    <comp lib="1" loc="(610,480)" name="AND Gate"/>
     <comp lib="0" loc="(280,170)" name="Pin">
       <a name="facing" val="south"/>
     </comp>
@@ -2444,7 +2439,6 @@ end TCL_Generic;
     <comp lib="8" loc="(728,484)" name="Text">
       <a name="text" val="Sub"/>
     </comp>
-    <comp lib="1" loc="(610,480)" name="OR Gate"/>
     <comp lib="0" loc="(670,420)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
